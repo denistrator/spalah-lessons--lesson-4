@@ -1,3 +1,5 @@
+/*fonts*/
+
 @font-face {
     font-family: 'Segoe Ui';
     src: url('../fonts/Segoe-Ui.eot');
@@ -20,16 +22,70 @@
     font-weight: 300;
 }
 
+/*typography*/
 
-.qq1 {
+html {
 	font-family: 'Segoe Ui';
 }
 
-.qq2 {
-	font-family: 'Segoe Ui';
+h1, h2, h3, h4, h5, h6 {
+	color: #6f7173;
+	font-weight: 400;
+}
+
+h1 {
+	color: black;
+	font-size: 1.563rem;
 	font-weight: 300;
 }
 
+h2 {
+	font-size: 1.313rem;
+}
+
+h3 {
+	font-size: 1.063rem;
+}
+
+a {
+	color: #5094f2;
+}
+
+a:hover {
+	color: #0f5fcd;
+}
+
+p {
+	color: #909090;
+	font-size: 0.625rem;
+	line-height: 1.125rem;
+}
+
+.copyright {
+	font-size: 0.5rem;
+	font-weight: 300;
+}
+
+/*forms, bottons*/
+
+button {
+	background-color: #5094f2;
+	padding: 6px;
+	color: white;
+	border: none;
+	-webkit-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-out;
+}
+
+/*other*/
+
+hr {
+	clear: both;
+	border: none;
+	border-top: 1px dotted #e5e5e5	;
+}
+
+/* styles */
 
 
 
