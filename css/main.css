@@ -1,7 +1,34 @@
+@font-face {
+    font-family: 'Segoe Ui';
+    src: url('../fonts/Segoe-Ui.eot');
+    src: local("Segoe UI"),
+		 local("SegoeUI"), 
+         url('../fonts/Segoe-Ui.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Segoe-Ui.woff') format('woff'),
+         url('../fonts/Segoe-Ui.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Segoe Ui';
+    src: url('../fonts/Segoe-Ui.eot');
+    src: local("Segoe UI Semilight"),
+		 local("SegoeUI-Semilight"), 
+         url('../fonts/Segoe-UI-Semilight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Segoe-UI-Semilight.woff') format('woff'),
+         url('../fonts/Segoe-UI-Semilight.ttf') format('truetype');
+    font-weight: 300;
+}
 
 
+.qq1 {
+	font-family: 'Segoe Ui';
+}
 
-
+.qq2 {
+	font-family: 'Segoe Ui';
+	font-weight: 300;
+}
 
 
 
