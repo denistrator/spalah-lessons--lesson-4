@@ -28,11 +28,6 @@ html { box-sizing: border-box; }
 
 *, *:before, *:after{ box-sizing: inherit; }
 
-h1, h2, h3, h4, h5, h6, a, p, td, q, blockquote, span{
--webkit-transition: font-size 0.3s ease-in-out;
-		transition: font-size 0.3s ease-in-out;
-}
-
 html { font-family: 'Segoe Ui'; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -95,10 +90,6 @@ hr {
 
 /* styles */
 
-html { box-sizing: border-box; }
-
-*, *:before, *:after { box-sizing: inherit; }
-
 .main_wrapper {
 	max-width: 1250px;
 	min-width: 319px;
@@ -118,8 +109,6 @@ header.main { padding: 11px 4% 0; }
 .main_logo .logo_img {
 	width: 26px;
 	float: left;
-	-webkit-transition: all 0.5s;
-			transition: all 0.5s;
 }
 
 .main_logo .logo_img .inner {
@@ -141,15 +130,11 @@ header.main { padding: 11px 4% 0; }
 	background-image: url("../images/logo.png");
 	background-repeat: no-repeat;
 	background-size: contain;
-	-webkit-transition: all 0.5s;
-			transition: all 0.5s;
 }
 
 .main_logo h1 {
 	margin: 0;
 	margin-left: 35px;
-	-webkit-transition: all 0.5s;
-			transition: all 0.5s;
 }
 
 #menu_button { display: none; }
@@ -258,8 +243,6 @@ nav.main ul li a span:after {
     background-color: #5094f2;
     display: block;
     opacity: 0;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
 }
 
 nav.main ul li a:hover span:after {
@@ -279,8 +262,6 @@ nav.main ul li a.active span:after {
     bottom: -10px;
     background-color: #5094f2;
     display: block;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
     opacity: 1;
     left: 0;
     height: 3px;
@@ -381,8 +362,6 @@ nav.main ul li a.active span:after {
 	padding-bottom: 9px;
 	margin-right: 12px;
 	float: left;
-	-webkit-transition: all 0.3s ease-in-out;
-		transition: all 0.3s ease-in-out;
 }
 
 .services_list .list_img_box .inner {
@@ -399,8 +378,6 @@ nav.main ul li a.active span:after {
     position: relative;
     left: 7px;
     top: 7px;
-    -webkit-transition: all 0.3s ease-in-out;
-		transition: all 0.3s ease-in-out;
 }
 
 .services_list .list_img_box .box_1 { background-color: #5094f2; }
@@ -480,6 +457,41 @@ footer .copyright {
 	font-size: 	0.5rem;
 	text-align: center;
 	margin-top: 9px;
+}
+
+/*device.js*/
+
+html.desktop h1, html.desktop h2,
+html.desktop h3,
+html.desktop h4,
+html.desktop h5,
+html.desktop h6,
+html.desktop a, 
+html.desktop p, 
+html.desktop td,
+html.desktop q, 
+html.desktop blockquote, 
+html.desktop span {
+	-webkit-transition: font-size 0.3s ease-in-out;
+			transition: font-size 0.3s ease-in-out;
+}
+
+html.desktop .main_logo .logo_img,
+html.desktop .main_logo .logo_image {
+	-webkit-transition: all 0.5s;
+			transition: all 0.5s;
+}
+
+html.desktop nav.main li a span:after,
+html.desktop nav.main li a.active span:after {
+    -webkit-transition: all 0.2s ease-in-out;
+   			transition: all 0.2s ease-in-out;
+}
+
+html.desktop .services_list .list_img_box,
+html.desktop .services_list .list_img  {
+	-webkit-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
 }
 
 /*media queries*/
